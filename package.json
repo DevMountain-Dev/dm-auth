@@ -1,0 +1,48 @@
+{
+  "_from": "dm-auth",
+  "_id": "dm-auth@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-oHVxYgMcW6oM0Z++tUIK9kOFQY2NskinGHrgiWJbXRupAevRTd9YAPINfwLZcUgAJfA7E3G0/+8OC7XpaoAxCw==",
+  "_location": "/dm-auth",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "dm-auth",
+    "name": "dm-auth",
+    "escapedName": "dm-auth",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/dm-auth/-/dm-auth-0.0.1.tgz",
+  "_shasum": "75d3ea11fce588ff3c75e1cb069e1eb608958772",
+  "_spec": "dm-auth",
+  "_where": "/Users/brettcaudill/workshop/temp",
+  "author": {
+    "name": "Brett Caudill"
+  },
+  "bin": {
+    "dm-auth": "./init.js"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "massive": "^3.0.0-rc1",
+    "passport": "^0.3.2",
+    "passport-auth0": "^0.6.0"
+  },
+  "deprecated": false,
+  "description": "This is a simple module to help devmountain students use massive and auth0 together",
+  "keywords": [],
+  "license": "ISC",
+  "main": "auth0.js",
+  "name": "dm-auth",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
+}
